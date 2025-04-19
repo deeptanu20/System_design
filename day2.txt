@@ -1,0 +1,21 @@
+ 
+ Monolithic Architecture: 
+- Single codebase
+- Single deployment unit
+- Single database
+
+
+All the components (frontend, backend, database) are tightly coupled and deployed as a single unit.
+
+Advantages:
+- Simplicity: Easy to develop, test, and deploy.
+- Performance: No network latency between components.
+- security: Easier to manage security as everything is in one place.
+
+Disadvantages:
+- Scalability: Difficult to scale individual components.
+- Single point of failure: If one component fails, the entire system can go down.
+- Upgrade: Upgrading one component requires redeploying the entire system.
+
+
+

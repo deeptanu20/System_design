@@ -1,0 +1,16 @@
+Types of System Design
+
+1.HLD: High Level Design
+  - System Architecture
+  - Components and their interactions
+  - Data flow between components
+  - APIs and protocols used for communication
+  - Scalability and performance considerations
+
+2.LLD:
+Low Level Design
+  - Detailed design of individual components
+  - Data structures and algorithms used
+  - Class diagrams and sequence diagrams
+  - Error handling and edge cases
+  - business logic and workflows

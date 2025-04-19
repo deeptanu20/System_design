@@ -1,0 +1,22 @@
+Distributed Architecture
+
+- Multiple codebases
+- Multiple deployment units
+- Multiple databases
+
+ all the components (frontend, backend, database) are loosely coupled and can be deployed independently.
+
+ Advantages:
+- Scalability: Each component can be scaled independently (vertical and horizontal scaling).
+- Single point of failure: If one component fails, the others can continue to function.
+- Upgrade: Upgrading one component does not require redeploying the entire system.
+
+ Disadvantages:
+- Complexity: More complex to develop, test, and deploy.
+- latency: Network latency between components can affect performance.
+- security: More complex to manage security as components are distributed.
+- Cost: More expensive to maintain and operate due to multiple components.
+- management: More difficult to manage and monitor multiple components(load balancers, databases, etc.).
+
+replication: Replication is the process of copying data from one database to another to ensure data availability and reliability to reduce the risk of data loss.
+
