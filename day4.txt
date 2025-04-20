@@ -1,0 +1,17 @@
+Latency(Ping) : Time taken to send a packet of data from one point to another and back again.
+Time required to send request and receive response
+
+
+Latency=Network delay+Computation delay
+
+Network delay : Time taken to send a packet of data from one point to another and back again.
+Computation delay : Time taken to process the request and generate a response. Same for monolithic and microservices.
+
+latency: Monolithic < Distributed 
+
+
+Reducing Latency Methods:
+Cashing :Store information in memory for specific time period for faster access
+CDN : Content Delivery Network, a system of distributed servers that deliver web content to a user based on the user's geographic location.
+
+
